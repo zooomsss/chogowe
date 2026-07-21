@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import heroGif from "@assets/chogowe-joko_1784557300644.gif";
+import heroGif from "public/chogowe-joko.gif";
 
 export default function Hero() {
   const [clickCount, setClickCount] = useState(0);
